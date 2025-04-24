@@ -1,6 +1,6 @@
 const Customer = require('./customerModel')
 const User = require('../user/userModel')
-const bcrypt = require('bcrypt')
+const bcrypt = require("bcryptjs");
 
 
 

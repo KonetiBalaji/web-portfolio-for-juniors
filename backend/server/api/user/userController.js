@@ -1,7 +1,8 @@
 const User = require('./userModel')
 const jwt = require('jsonwebtoken')
 const secretKey = '1q2w3e4r5t' 
-const bcrypt = require('bcrypt')
+const bcrypt = require("bcryptjs");
+
 
 
 const login = (req, res) => {

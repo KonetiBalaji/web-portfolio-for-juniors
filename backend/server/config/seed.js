@@ -1,5 +1,5 @@
 const User = require('../api/user/userModel')
-const bcrypt = require('bcrypt');
+const bcrypt = require("bcryptjs");
 
 
 User.findOne({ email: 'admin@gmail.com' })

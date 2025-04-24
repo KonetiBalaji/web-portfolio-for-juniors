@@ -1,5 +1,5 @@
 const Propertyadvisor = require('./propertyAdvisorModel')
-const bcrypt = require('bcrypt')
+const bcrypt = require("bcryptjs");
 const User = require('../user/userModel')
 
 
