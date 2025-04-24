@@ -1,5 +1,5 @@
 import axios from "axios"
-export const BASE_URL = "http://localhost:4000/"
+export const BASE_URL = "https://web-portfolio-for-juniors.onrender.com/"
 
 class Apihandle{
     getToken(){
