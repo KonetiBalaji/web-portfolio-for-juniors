@@ -1,5 +1,5 @@
 import axios from "axios"
-export const BASE_URL = "https://web-portfolio-for-juniors.onrender.com/"
+export const BASE_URL = process.env.REACT_APP_BASE_URL
 
 class Apihandle{
     getToken(){
@@ -116,4 +116,5 @@ class Apihandle{
 
 }
 
-export default new Apihandle
+const api = new Apihandle();
+export default api;
